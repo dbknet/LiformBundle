@@ -15,7 +15,13 @@
     }
   },
   "require": {
-    "limenius/liform": "^0.17.0"
+    "limenius/liform": "dev-master"
   },
-  "minimum-stability": "stable"
+  "minimum-stability": "stable",
+  "repositories": {
+    {
+      "type": "vcs",
+      "url": "https://github.com/dbknet/Liform.git"
+    }
+  }
 }
